@@ -7,7 +7,7 @@ Exercício do curso "**Java COMPLETO Programação Orientada a Objetos + Projeto
 
 > Ler os dados de um trabalhador com N contratos (N fornecido pelo
 > usuário). Depois, solicitar do usuário um mês e mostrar qual foi o
-> salário do funcionário nesse mês, conforme exemplo (próxima página).
+> salário do funcionário nesse mês.
 
 ![Diagrama UML com as classes "Order", "OrderItem", "Client, "Product" e "OrderStatus"](https://i.imgur.com/hDXtIv6.png)
 
