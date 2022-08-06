@@ -61,8 +61,12 @@ public class Order {
 
     @Override
     public String toString() {
-        return "ORDER SUMMARY:\nOrder moment: " + sdf.format(moment)
-        + "\nOrder status: " + status + "\n"
-        + client;
+        var sb = new StringBuilder();
+
+        sb.append("ORDER SUMMARY:\n");
+        sb.append("Order moment: " + sdf.format(moment) + "\n");
+        sb.append("Order status: " + status);
+        sb.append("\n" + client);
+        return sb.toString();
     }
 }
